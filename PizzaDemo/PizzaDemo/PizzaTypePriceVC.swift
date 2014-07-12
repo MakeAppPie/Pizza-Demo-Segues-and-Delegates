@@ -29,6 +29,7 @@ class PizzaTypePriceVC: UIViewController {
     @IBAction func priceText(sender: UITextField) {
         let priceString:NSString = sender.text
         pizzaPrice = priceString.doubleValue
+        priceStepper.value = pizzaPrice
         displayPizzaPrice()
     }
     @IBAction func priceStepper(sender: UIStepper) {
@@ -50,7 +51,7 @@ class PizzaTypePriceVC: UIViewController {
         priceStepper.stepValue = 0.01
         priceStepper.maximumValue = 10.00
         priceStepper.minimumValue = 0
-        
+        priceText.becomeFirstResponder()
         displayPizzaPrice()
         displayPizzaPriceInText()
     }
