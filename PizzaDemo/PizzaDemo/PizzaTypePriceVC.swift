@@ -12,10 +12,10 @@ protocol PizzaTypePriceDelegate{
 }
 
 class PizzaTypePriceVC: UIViewController {
-    @IBOutlet var pizzaTypeLabel: UILabel
-    @IBOutlet var pizzaPriceLabel: UILabel
-    @IBOutlet var priceStepper: UIStepper
-    @IBOutlet var priceText: UITextField
+    @IBOutlet var pizzaTypeLabel: UILabel!
+    @IBOutlet var pizzaPriceLabel: UILabel!
+    @IBOutlet var priceStepper: UIStepper!
+    @IBOutlet var priceText: UITextField!
     
     var pizzaType = "pizza Type"
     var pizzaPrice = 0.0

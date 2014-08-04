@@ -23,8 +23,8 @@ class PizzaDemoVC: UIViewController, PizzaTypePriceDelegate {
     
     let clearString = "I Like Pizza!"
     
-    @IBOutlet var priceLabel : UILabel   //added 07/01/14
-    @IBOutlet var resultsDisplayLabel : UILabel
+    @IBOutlet var priceLabel : UILabel!   //added 07/01/14
+    @IBOutlet var resultsDisplayLabel : UILabel!
     
     @IBAction func pizzaType(sender : UISegmentedControl) {
         let index = sender.selectedSegmentIndex
