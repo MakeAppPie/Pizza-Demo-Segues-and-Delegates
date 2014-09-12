@@ -10,12 +10,7 @@ import UIKit
 
 class AnotherViewController: UIViewController {
 
-    init(nibName nibNameOrNil: String?, bundle nibBundleOrNil: NSBundle?) {
-        super.init(nibName: nibNameOrNil, bundle: nibBundleOrNil)
-        // Custom initialization
-    }
-
-    override func viewDidLoad() {
+       override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
