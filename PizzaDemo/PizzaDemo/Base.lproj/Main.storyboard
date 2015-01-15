@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6154.21" systemVersion="13E28" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Df8-Fp-oM0">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6245" systemVersion="13F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" initialViewController="Df8-Fp-oM0">
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6153.13"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6238"/>
     </dependencies>
     <scenes>
-        <!--Pizza DemoVC - Pizza Demo -->
+        <!--Pizza Demo -->
         <scene sceneID="ufC-wZ-h7g">
             <objects>
                 <viewController id="vXZ-lx-hvc" customClass="PizzaDemoVC" customModule="PizzaDemo" sceneMemberID="viewController">
@@ -148,7 +148,7 @@
             </objects>
             <point key="canvasLocation" x="900" y="141"/>
         </scene>
-        <!--Pizza Type PriceVC - Pizza Type-->
+        <!--Pizza Type-->
         <scene sceneID="fWy-y6-n9G">
             <objects>
                 <viewController id="gDP-YP-fl2" customClass="PizzaTypePriceVC" customModule="PizzaDemo" sceneMemberID="viewController">
@@ -210,7 +210,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="JsU-eX-LuJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1446" y="141"/>
+            <point key="canvasLocation" x="1290" y="141"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="IaR-7X-nSi">
